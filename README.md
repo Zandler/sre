@@ -46,5 +46,6 @@ PS. If you want to add some free course, just make a PR   :)
 
 ## CHEAT SHEETS
 
+You you want some cheat sheet for git, terraform or k8s (just this 3 at now), [CLICK HERE](./cheat-sheets/README.md)
 
 

@@ -1,42 +1,62 @@
-# GIT CHEAT SHEET
+# TERRAFORM CHEAT SHEET 
 
-### Setup
-
-
-|**DESCRIPTION** | **COMMAND** |
-|---|---|
-| Set you name in version control audit | git config --global user.name <firstname-lastname> |
-| Set your email for audit in version control | git config --global user.email <email> | 
-| Make git colored | git config --global color-ui auto |
-| Init local repository | git init |
-| Clone repo remote to local| git clone <repository-url> |
-
-
-### Daily using
-|**DESCRIPTION** | **COMMAND** |
-|---|---|
-| Show status in working directory | git status |
-| Add files to tracking change for commit (stage) | git add . **OR** git add ,especific-file> |
-| Reset file to unstage in working dir | gir reset <file> |
-| Show files changed but not staged (add) | git dff |
-| Show files staged but not commited | git diff --staged |
-| Commit files staged (like snaphost, but with files change) | git commit -m "message" |
-
-### Daily using for branch
+### Basic commands 
 
 |**DESCRIPTION** | **COMMAND** |
 |---|---|
-| List local branchs | git branch |
-| Create branch | git branch <name> |
-| Switch to another branch |  git checkout <branch-name> |
-| Marge branch history in to the current | git merge <branch> |
-| show logs in the current branch | git log |
+| Show version | terraform version |
+| Download and update modules | terraform get -update=true |
+| shom terraformt terminal | terraform console |
+| Create a diagram os tf dependencias (great for visualization) | terraform graph | dot -Tpng > grap.png |
+| Format tf files to HCL standarts | terraform fmt |
+| Validate terraform syntax | terraform validade |
+| Atcivate terraform auto-completion | terraform -install-autocomplete |
+| show providers in use | terraform providers |
 
-### Revision 
+### Initialize 
 |**DESCRIPTION** | **COMMAND** |
 |---|---|
-| show logs in the current branch | git log |
-| Show commit on branch_1 that not in branch_2 | git log branch_1 branch_2 |
-| Apply commit on current branch ahead of another | git rebase <branch> |
-| Clear stage, e cameback to especific commit | git reset --hard <commit> |
- 
+| Initialize terraform | terraform init |
+| Initialize terraform without plugins | terraform init -get-plugins=false |
+| Upgrade plugins and modules at initialization | terraform init upgrade |
+| Change state lock timeout (default zero seconds) | terraform init -lock-timeout=120s |
+
+###  Plan Step
+|**DESCRIPTION** | **COMMAND** |
+|---|---|
+| Create a plan with diff between code and state | terraform plan |
+| Output a plan file for reference during apply | terraform plan -out <tfplan-file> |
+| Output a plan to show effect of terraform destroy | terraform plan -destroy |
+| Target a specific resource for deployment | terraform plan -target=Resource | 
+
+###  Apply Step
+|**DESCRIPTION** | **COMMAND** |
+|---|---|
+|Apply the state of terraform code | terraform apply |
+|Specify a previously generated plan to apply |terraform apply <tfplan-file> | 
+|Enable auto-approval or automation | terraform apply -auto-approve |
+
+###  Destroy Step
+|**DESCRIPTION** | **COMMAND** |
+|---|---|
+| Destroy resources managed by terraform state| terraform destroy |
+| Enable auto-approval or automation **CAUTION**| terraform destroy -auto-approve | 
+
+###  Output Step
+|**DESCRIPTION** | **COMMAND** |
+|---|---|
+| List available outputs | terraform output |
+| Output a specific value |terraform output NAME|
+
+###  Output Step
+|**DESCRIPTION** | **COMMAND** |
+|---|---|
+|List all resources in terraform state |terraform state list |
+|show details about a specific resource|terraform state show ADDRESS|
+|Import a manually created resource into state|terraform state import ADDRESS ID|
+|Track an existing resource in state under new name|terraform state mv SOURCE DESTINATION|
+|Pull state and save to a local file|terraform state pull > <tfstate-file>|
+|push state to a remote location|terraform state push PATH|
+|Replace a resource provider|terraform state replace-provider A B|
+|Taint a resource to force redeployment on apply|terraform taint ADDRESS|
+|Untaint a prevoiusly tainted resource|terraform untaint ADDRESS|
