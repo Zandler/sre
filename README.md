@@ -43,6 +43,8 @@ PS. If you want to add some free course, just make a PR   :)
 | **Miscellaneous**| Linux Foundation | All free (devops, arch, cyber, network, development) | https://training.linuxfoundation.org/resources/ | mar/25 |
 | **Miscellaneous**| Postman | Great plat to know how use postman |  https://academy.postman.com/path/postman-api-fundamentals-student-expert | mar/25 |
 | **Miscellaneous**| Confluent | You can found Lives with 3-day class (see calendar), self-paced learning recorded and more stuff | https://cloud.contentraven.com/confluent/content | mar/25 |
+| **Data Science** | IBM 12 courses | the best course free for data science. | https://www.coursera.org/professional-certificates/ibm-data-science | abr/25|
+| **ENGLISH
 
 ## CHEAT SHEETS
 
