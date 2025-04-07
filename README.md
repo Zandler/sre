@@ -1,3 +1,9 @@
+# CHEAT SHEETS
+You you want some cheat sheet for git, terraform or k8s (just this 3 at now), [CLICK HERE](./cheat-sheets/README.md)
+
+# TIPS
+Tips about productivity or tecnology. [CLICK HERE](./tips/README.md)
+
 # SRE FREE COURSES
 
 As SRE`s, Devops Engineer, infra etc(d)... we need update all knowledge every day. Most times buiyng courses in platforms like udemy, alura etc(d). This repo contains the same courses , but no charge, totaly free.
@@ -46,8 +52,6 @@ PS. If you want to add some free course, just make a PR   :)
 | **Data Science** | IBM 12 courses | the best course free for data science. | https://www.coursera.org/professional-certificates/ibm-data-science | abr/25|
 | **ENGLISH
 
-## CHEAT SHEETS
 
-You you want some cheat sheet for git, terraform or k8s (just this 3 at now), [CLICK HERE](./cheat-sheets/README.md)
 
 
