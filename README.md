@@ -2,7 +2,11 @@
 Some cheat sheets for git, terraform or k8s (just this 3 at now), [CLICK HERE](./cheat-sheets/README.md)
 
 # TIPS
-Tips about productivity or tecnology. [CLICK HERE](./tips/README.md)
+Tips about productivity or tecnology.
+- Daily work 
+- Ansible
+
+[CLICK HERE](./tips/README.md)
 
 # SRE FREE COURSES
 
