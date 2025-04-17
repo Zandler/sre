@@ -4,6 +4,7 @@ Some cheat sheets for git, terraform or k8s (just this 3 at now), [CLICK HERE](.
 # TIPS
 Tips about productivity or tecnology.
 - Daily work 
+- Record your goals with a brag document
 - Ansible
 
 [CLICK HERE](./tips/README.md)
@@ -17,6 +18,7 @@ PS. If you want to add some free course, just make a PR   :)
 
 | THEME      | SUBJECT    | RESUME                                         | LINK                                                                                               | VALIDATE |
 | ---------- | ---------- | ---------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------- |
+| **COURSE** | SRE/Sec/DATA | Google and CIEE has multiple courses free | https://portal.ciee.org.br/quero-me-preparar/google-tech/ | abr/25 |
 | **Book**       | SRE        | Google SRE                                     |https://sre.google/sre-book/table-of-contents/                                        | mar/25   |
 | **Book**       | SRE        | Google SRE Workbook                            |     https://sre.google/workbook/table-of-contents/                                   | mar/25   |
 | **Course** | SRE | Red Hat Implementing SRE(yes, i know, but its a excelent start |  https://www.redhat.com/en/services/training/transitional-approach-implementing-pragmatic-site-reliability-engineering-sre-technical-overview | mar/25 |
@@ -53,6 +55,7 @@ PS. If you want to add some free course, just make a PR   :)
 | **Miscellaneous**| Linux Foundation | All free (devops, arch, cyber, network, development) | https://training.linuxfoundation.org/resources/ | mar/25 |
 | **Miscellaneous**| Postman | Great plat to know how use postman |  https://academy.postman.com/path/postman-api-fundamentals-student-expert | mar/25 |
 | **Miscellaneous**| Confluent | You can found Lives with 3-day class (see calendar), self-paced learning recorded and more stuff | https://cloud.contentraven.com/confluent/content | mar/25 |
+
 
 
 
